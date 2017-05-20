@@ -45,7 +45,7 @@
 
       	//construct queryURL to make gif API call to get 5 gif images
       	//var queryURL = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag="+animal;
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         animal + "&api_key=dc6zaTOxFJmzC&limit=5";
 
       	console.log("queryURL before making ajax call - "+queryURL);
